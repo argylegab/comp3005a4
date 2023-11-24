@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>a4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Student Database</h1>
+    </header>
+
+    <div id="left">
+      <div class="square_div">
+        <button id="getAllStudentsBtn">getAllStudents()</button>
+      </div>
+
+    <div class="square_div">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <label for="enrollmentdate">Enrollment Date:</label>
+      <input type="date" id="enrollmentdate" name="enrollmendate"><br><br>
+      <button id="addStudentBtn">addStudent()</button>
+    </div>
+
+    <div class="square_div">
+      <label for="st_id">Student ID:</label>
+      <input type="text" id="st_id" name="st_id"><br><br>
+      <label for="updatedEmail">Updated Email:</label>
+      <input type="text" id="updatedEmail" name="updatedEmail"><br><br>
+      <button id="updateStudentEmailBtn">updateStudentEmail()</button>
+    </div>
+
+    <div class="square_div">
+      <label for="st_idDelete">Student ID:</label>
+      <input type="text" id="st_idDelete" name="st_idDelete"><br><br>
+      <button id="deleteStudentBtn">deleteStudent()</button>
+    </div>
+
+    </div>
+
+    <div id="right">
+      <h2>Results:</h2>
+      <div id="display_div">
+      </div>
+    </div>
+
+
+</body>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="app.css"/>
+</html>
